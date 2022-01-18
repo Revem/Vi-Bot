@@ -4,10 +4,11 @@ const { Routes } = require('discord-api-types/v9');
 const { clientId, guildId, token } = require('./config.json');
 
 const commands = [
-	new SlashCommandBuilder().setName('ping').setDescription('Replies with pong!'),
-	new SlashCommandBuilder().setName('server').setDescription('Replies with server info!'),
-	new SlashCommandBuilder().setName('user').setDescription('Replies with user info!'),
-  new SlashCommandBuilder().setName('test').setDescription('Replies with test!'),
+	new SlashCommandBuilder().setName('ping').setDescription('Responde com pong!'),
+	new SlashCommandBuilder().setName('server').setDescription('Responde com informações do servidor!'),
+	new SlashCommandBuilder().setName('user').setDescription('Responde com informações do usuário!'),
+  new SlashCommandBuilder().setName('aviso').setDescription('Você foi avisado!'),
+	new SlashCommandBuilder().setName('fazer').setDescription('Responde com coisas que vocês vão fazer!'),
 ]
 	.map(command => command.toJSON());
 
