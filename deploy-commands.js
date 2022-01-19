@@ -9,6 +9,7 @@ const commands = [
 	new SlashCommandBuilder().setName('user').setDescription('Responde com informações do usuário!'),
   new SlashCommandBuilder().setName('aviso').setDescription('Você foi avisado!'),
 	new SlashCommandBuilder().setName('fazer').setDescription('Responde com coisas que vocês vão fazer!'),
+	new SlashCommandBuilder().setName('momor').setDescription('Responde com o amor da minha vida!'),
 ]
 	.map(command => command.toJSON());
 

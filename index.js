@@ -30,6 +30,8 @@ client.on('interactionCreate', async interaction => {
     var Coisas = ['Assistir Filme', 'Assistir Série', 'Jogar Fortnite', 'Jogar TFT', 'Jogar Solo/Duo', 'Jogar Pokemon Unite', 'Jogar Stardew Valley', 'Assistir Anime', 'Jogar Flex', 'Jogar ARAM']
     var Fazer = Coisas[Math.floor(Math.random() * Coisas.length)]
     await interaction.reply(`Vocês vão ${Fazer}`)
+  } else if (commandName === 'momor') {
+    await interaction.reply('Eu te amo muito Vitória, muito muito muito')
   }
 })
 
