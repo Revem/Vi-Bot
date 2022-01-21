@@ -18,7 +18,8 @@ for (const file of commandFiles) {
 }
 
 client.once('ready', () => {
-  console.log('Bot ta on!')
+  console.log('Bot ta on!');
+  client.user.setActivity('a linda voz do meu amor', { type: 'LISTENING' })
 })
 
 client.on('interactionCreate', async interaction => {
